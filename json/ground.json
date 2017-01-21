@@ -1,0 +1,16 @@
+[
+  {
+    "type": "ground",
+    "id": "debug_floor",
+    "symbol": ".",
+    "color": "pink",
+    "flags":[""]
+  },
+  {
+    "type": "ground",
+    "id": "dirt",
+    "symbol": ".",
+    "color": "brown",
+    "flags":[""]
+  }
+]

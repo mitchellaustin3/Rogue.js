@@ -1,0 +1,18 @@
+[
+  {
+    "type": "structure",
+    "id": "debug_structure",
+    "symbol": "#",
+    "color": "pink",
+    "unpathable":true,
+    "flags": ["blocksSight"]
+  },
+  {
+    "type": "structure",
+    "id": "wall",
+    "symbol": "#",
+    "color": "white",
+    "unpathable": true,
+    "flags": ["blocksSight"]
+  }
+]

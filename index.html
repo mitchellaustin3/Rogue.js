@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vidja</title>
+
+</head>
+<body>
+<div id="MainInventory">
+    <h1>Inventory</h1>
+    <ul class="InventoryList">
+        <li>a: Item 1</li>
+        <li>b: 2</li>
+        <li>c: 3</li>
+        <li>d: 4</li>
+        <li>e: 5</li>
+        <li>f: 6</li>
+        <li>g: 7</li>
+        <li>h: 8</li>
+        <li>i: 9</li>
+        <li>j: 0</li>
+    </ul>
+    <ul class="InventoryActions">
+        <li ><div id="drop">D</div>rop</li>
+        <li ><div id="equip">E</div>quip</li>
+        <li ><div id="activate">A</div>ctivate</li>
+    </ul>
+</div>
+<div  id="entities" style=""></div>
+<div id="separator">X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X </div>
+<div id="infoBox">
+    <br/><br/>
+    Initiative: <div id="playerInit"></div> <br>
+    <div id="allHpInfo">
+        <div style="float: left">HP:&nbsp;&nbsp;</div> <div id="playerHP"></div>
+        <div id="hpBarContainer"><div id="greenHP"></div><div id="redHP"></div></div>
+    </div>
+    <br>
+    <ul id="messageLog">
+
+
+    </ul>
+<br/>
+<br/>
+The <div id="noBreak" style="color: green">@</div> is your character <br>
+Use either a numpad to or the arrow keys to move <br>
+The <div id="noBreak" style="color: red">~</div> is the enemy, run into it to attack    <br>
+A <div id="noBreak" style="color: brown">.</div> is a floor tile <br>
+A <div id="noBreak" style="color: white">#</div> is a Wall <br>
+</div>
+
+<div id="lookBox">
+    <h1>Info: </h1>
+    <p>TEST MESSAGE</p>
+</div>
+
+</body>
+
+
+<!--external start-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!--external end
+
+<!-- internal start-->
+<link type="text/css" rel="stylesheet" href="Styles/clearStyles.css" />
+<link type="text/css" rel="stylesheet" href="Styles/Styles.css" />
+<script src="scripts/hostileActor.js"></script>
+<script src="scripts/dungeonTest/dungeonGen.js"></script>
+<script src="scripts/PQueue.js"></script>
+<script src="scripts/initActions.js"></script>
+<script src="scripts/fieldOfVision.js"></script>
+<script src="scripts/globals.js"></script>
+<script src="scripts/aStar.js"></script>
+<script src="scripts/messageLog.js"></script>
+<script src="scripts/look.js"></script>
+<script src="scripts/inventory.js"></script>
+<script src="scripts/main.js"></script>
+<!--internal end-->
+
+</html>
